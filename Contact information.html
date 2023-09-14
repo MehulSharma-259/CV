@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset = "UTF-8">
+    </head>
+    
+    <body>
+        <h1> My contact details. </h1>
+        <p> <b> Mobile number : </b> XXXXYYY452</p>
+        <p> <b> email : </b> xyz@gmail.com</p>
+        <p> <b> address : </b> 142/7878 unknownplace, ..</p>
+        <hr>
+        <form action = "mailto:mehulsharma267@gmail.com" method = "post" enctype = "text/plain">
+        <!-- this mail to feature will help us to mail to the mentioned email by opening the default mail app and enctype is use to specify the input entered as plain text otherwise it will add some weird symbols like %, +-->
+            <h3> Enter your information :</h3>
+        
+            <table>
+                <tr>
+                    <td> <label for = "name"> Your Name : </label> </td>
+                    <td> <input type = "text" id = "name" name = "yourName"> </td>
+                </tr>
+                <br>
+                <tr>
+                    <td> <label for = "email"> Your email : </label> </td>
+                    <td> <input type = "email" id = "email" name = "yourEmail"> </td>
+                </tr>
+                <br>
+                <tr>
+                    <td> <label for = "age"> Your age : </label> </td>
+                    <td> <input type = "number" id = "age" name = "yourAge"> </td>
+                </tr>
+                <br>
+                <tr>
+                    <td> <label for = "contact"> Your mobile number : </label> </td>
+                    <td> <input type = "number" id = "contact" name = "yourMobile"> </td>
+                </tr>
+                <br>
+                <tr>
+                    <td> <label for="Date"> Enter the date of filling :</label></td>
+                    <td> <input type="date" name = "dateOfFilling"> </td>
+                </tr>
+<!-- Here the name attribute is used in the input tag to easily categorize the data entered , when you fill the form you will see-->
+                <tr>
+                    <td> <input type="submit" > </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
